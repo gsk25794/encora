@@ -3,9 +3,3 @@ os: linux
 files:
   - source: /target/EncoraMavenTomcatWebApp.war
     destination: /usr/java/apache-tomcat-8.5.69/webapps/
-hooks:
-  ApplicationStart:
-    - location: scripts/write_codedeploy_config.sh
-      timeout: 300
-  ValidateService:
-    - location: scripts/basic_health_check.sh
