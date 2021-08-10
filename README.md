@@ -3,4 +3,4 @@
 # Application Servlet : Tomcat
 # Build Tool : Maven
 # Deployment Artifact : *.war
-# CICD : Codepipeline
+CICD : Codepipeline
